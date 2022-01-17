@@ -14,7 +14,7 @@ Role Variables
 --------------
 
 ```
-imagemagick_version: "7.0.7"
+imagemagick_version: "7.1.0"
 
 imagemagick_configure_options: ""
 imagemagick_install_path: "/opt/imagemagick"
@@ -35,7 +35,7 @@ Example Playbook
 - hosts: servers
   become: true
   roles:
-    - { role: cimon-io.imagemagick, imagemagick_version: '7.0.7' }
+    - { role: cimon-io.imagemagick, imagemagick_version: '7.1.0"' }
 ```
 
 License
